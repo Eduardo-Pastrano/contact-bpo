@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
     min-height: 100vh;
 }
 
@@ -41,15 +44,18 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 #banner h1 {
     text-align: center;
+    margin: 0;
 }
 
 #banner p {
-    margin: 0.5em;
     text-align: justify;
+    margin: 0 1rem 0 1rem;
 }
 
 .banner-img {
@@ -75,8 +81,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90vw;
     gap: 1em;
     margin: 0.5em 0 1em 0;
+}
+
+.services-container p, .pricing-container p {
+    font-style: italic;
 }
 
 .services-icon, .pricing-icon {
@@ -84,7 +95,6 @@ header {
 }
 
 .contact-center, .technical-support, .back-office, .package-1, .package-2, .package-3 {
-    width: 480px;
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
     box-shadow: 0px 5px 15px -5px;
@@ -103,7 +113,21 @@ header {
 }
 
 #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact h2 {
     text-align: center;
+    margin: 0;
+}
+
+#contact p {
+    text-align: justify;
+    margin: 0 1rem 0 1rem;
 }
 
 footer {
@@ -116,6 +140,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+
+.footer-text p {
+    margin-bottom: 0;
 }
 
 .social {
@@ -123,18 +153,11 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
-    margin-top: 0.5em;
 }
 
 .icon-img {
     width: 32px;
 }
-
-
-
-
-
-
 
 
 /*500px-768px*/

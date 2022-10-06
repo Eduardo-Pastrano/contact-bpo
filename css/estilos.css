@@ -35,11 +35,10 @@ header {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 999;
 }
 
-.arrow {
-    width: 48px;
+.top-button {
+    color: rgb(68, 110, 129);
 }
 
 #banner {
@@ -120,6 +119,7 @@ header {
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 #contact h2 {

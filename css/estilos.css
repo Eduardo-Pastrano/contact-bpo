@@ -38,7 +38,7 @@ header {
 }
 
 .top-button {
-    color: rgb(68, 110, 129);
+    color: rgb(0, 0, 0);
 }
 
 #banner {
@@ -129,11 +129,23 @@ header {
 
 #contact p {
     text-align: justify;
-    margin: 0 1rem 0 1rem;
+    margin: 0;
+}
+
+.contact-container {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    margin:0 1rem 0 1rem;
+}
+
+.email-icon {
+    color: white;
 }
 
 footer {
-    background-color: rgb(122, 162, 202);
+    background-color: rgb(95, 132, 169);
     margin-top: auto;
     border-top: solid 2px black;
 }

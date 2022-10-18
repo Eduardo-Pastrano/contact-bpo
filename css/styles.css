@@ -2,4 +2,24 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  background: rgb(6, 48, 65);
+  background: linear-gradient(0deg, rgb(125, 164, 204) 0%, rgb(122, 185, 212) 35%, rgb(255, 255, 255) 100%);
+}
+
+header {
+  background-color: rgb(125, 164, 204);
+  border-bottom: solid 2px black;
+}
+
+footer {
+  background-color: rgb(95, 132, 169);
+  margin-top: auto;
+  border-top: solid 2px black;
 }/*# sourceMappingURL=styles.css.map */

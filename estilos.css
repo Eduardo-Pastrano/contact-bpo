@@ -1,22 +1,4 @@
-
-
-
-
 /*0px-500px*/
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    min-height: 100vh;
-    background: rgb(6,48,65);
-    background: linear-gradient(0deg, rgba(125, 164, 204,1) 0%, rgb(122, 185, 212) 35%, rgba(255,255,255,1) 100%); 
-}
-
-header {
-    background-color: rgb(125, 164, 204);
-    border-bottom: solid 2px black;
-}
-
 .nav-button {
     background-color: rgb(255, 255, 255);
 }
@@ -146,11 +128,7 @@ header {
     width: 55px;
 }
 
-footer {
-    background-color: rgb(95, 132, 169);
-    margin-top: auto;
-    border-top: solid 2px black;
-}
+
 
 .footer {
     display: flex;

@@ -128,8 +128,6 @@
     width: 55px;
 }
 
-
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -156,7 +154,7 @@
 }
 
 /*500px-768px*/
-@media (min-width: 500px) {
+@media (min-width: 576px) {
     body {
         font-size: 18px;
     }
@@ -222,7 +220,7 @@
 
 
 /*1024px*/
-@media (min-width: 1024px) {
+@media (min-width: 962px) {
     body {
         font-size: 22px;
     }

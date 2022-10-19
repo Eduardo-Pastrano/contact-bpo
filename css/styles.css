@@ -59,13 +59,72 @@ footer {
 }
 .textover-banner figcaption {
   position: absolute;
-  top: 5%;
+  top: 0%;
   left: 0;
   color: white;
   width: 100%;
   text-align: center;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
   padding: 10px;
+}
+@media (min-width: 350px) {
+  .textover-banner figcaption {
+    top: 8%;
+  }
+}
+@media (min-width: 400px) {
+  .textover-banner figcaption {
+    top: 18%;
+  }
+}
+@media (min-width: 450px) {
+  .textover-banner figcaption {
+    top: 22%;
+  }
+}
+@media (min-width: 500px) {
+  .textover-banner figcaption {
+    top: 30%;
+  }
+}
+@media (min-width: 550px) {
+  .textover-banner figcaption {
+    top: 32%;
+  }
+}
+@media (min-width: 600px) {
+  .textover-banner figcaption {
+    top: 33%;
+  }
+}
+@media (min-width: 650px) {
+  .textover-banner figcaption {
+    top: 35%;
+  }
+}
+@media (min-width: 700px) {
+  .textover-banner figcaption {
+    top: 40%;
+    padding: 15px;
+    font-size: 25px;
+  }
+}
+@media (min-width: 800px) {
+  .textover-banner figcaption {
+    top: 43%;
+  }
+}
+@media (min-width: 900px) {
+  .textover-banner figcaption {
+    top: 35%;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1000px) {
+  .textover-banner figcaption {
+    top: 40%;
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=styles.css.map */

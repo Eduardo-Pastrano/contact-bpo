@@ -16,9 +16,42 @@ header {
   background-color: rgb(34, 34, 59);
   border-bottom: solid 2px black;
 }
+header .navbar-dark .navbar-nav .nav-link {
+  margin: 10px;
+  color: rgb(255, 255, 255);
+}
+header .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(197, 197, 197, 0.634);
+  transition: 0.5s;
+}
 
 footer {
   background-color: rgb(34, 34, 59);
   margin-top: auto;
   border-top: solid 2px black;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#banner h1 {
+  margin: 8px;
+}
+#banner p {
+  margin: 8px;
+}
+#banner .btn {
+  margin: 5px;
+}
+#banner .btn-primary:hover {
+  color: #fff;
+  background-color: #0f49a1;
+  border-color: #0a58ca;
+}
+#banner h2 {
+  margin: 8px;
 }/*# sourceMappingURL=styles.css.map */

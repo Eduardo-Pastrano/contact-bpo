@@ -13,6 +13,11 @@ body {
 header {
     background-color: $header-footer;
 
+    .navbar-dark .navbar-toggler {
+        color: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+    }
+
     .navbar-dark .navbar-nav .nav-link {
         margin: 10px;
         color: rgb(255, 255, 255);
@@ -24,11 +29,6 @@ header {
     }
 }
 
-footer {
-    background-color: $header-footer;
-    margin-top: auto;
-}
-
 #banner {
     display: flex;
     flex-direction: column;
@@ -38,14 +38,16 @@ footer {
 
     h1 {
         margin: 8px;
+        margin-bottom: 0;
     }
 
     p {
         margin: 8px;
+        margin-bottom: 0;
     }
 
     .btn {
-        margin: 5px;
+        margin: 10px;
     }
 
     .btn-primary:hover {
@@ -54,7 +56,75 @@ footer {
         border-color: #0a58ca;
     }
 
+    figure {
+        margin: 0;
+    }
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
     h2 {
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+
+    p {
         margin: 8px;
     }
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contact-center1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin: 10px;
+
+        p {
+            text-align: left;
+            padding: 5px;
+        }
+    }
+
+    .contact-center2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 8px;
+        margin: 10px;
+
+        p {
+            text-align: left;
+            padding: 5px;
+        }
+    }
+
+    .contact-center3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin: 10px;
+
+        p {
+            text-align: left;
+            padding: 5px;
+        }
+    }
+}
+
+footer {
+    background-color: $header-footer;
+    margin-top: auto;
 }

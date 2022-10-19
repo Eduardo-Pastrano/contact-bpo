@@ -15,6 +15,10 @@ body {
 header {
   background-color: rgb(34, 34, 59);
 }
+header .navbar-dark .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
 header .navbar-dark .navbar-nav .nav-link {
   margin: 10px;
   color: rgb(255, 255, 255);
@@ -22,11 +26,6 @@ header .navbar-dark .navbar-nav .nav-link {
 header .navbar-dark .navbar-nav .nav-link:hover {
   color: rgba(197, 197, 197, 0.634);
   transition: 0.5s;
-}
-
-footer {
-  background-color: rgb(34, 34, 59);
-  margin-top: auto;
 }
 
 #banner {
@@ -38,20 +37,82 @@ footer {
 }
 #banner h1 {
   margin: 8px;
+  margin-bottom: 0;
 }
 #banner p {
   margin: 8px;
+  margin-bottom: 0;
 }
 #banner .btn {
-  margin: 5px;
+  margin: 10px;
 }
 #banner .btn-primary:hover {
   color: #fff;
   background-color: #0f49a1;
   border-color: #0a58ca;
 }
-#banner h2 {
+#banner figure {
+  margin: 0;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#info h2 {
+  margin: 10px;
+  margin-bottom: 0px;
+}
+#info p {
   margin: 8px;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#services .contact-center1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+}
+#services .contact-center1 p {
+  text-align: left;
+  padding: 5px;
+}
+#services .contact-center2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+}
+#services .contact-center2 p {
+  text-align: left;
+  padding: 5px;
+}
+#services .contact-center3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+}
+#services .contact-center3 p {
+  text-align: left;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgb(34, 34, 59);
+  margin-top: auto;
 }
 
 .textover-banner {
@@ -127,4 +188,8 @@ footer {
     top: 40%;
     font-size: 35px;
   }
+}
+
+.services-icon {
+  max-width: 50vw;
 }/*# sourceMappingURL=styles.css.map */

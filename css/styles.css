@@ -1,4 +1,5 @@
-/*Color palette*/
+/*Color palette*/ /*Positioning*/
+/*Text and spaces*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
@@ -10,6 +11,7 @@ body {
   flex-direction: column;
   font-family: "Lato", sans-serif;
   min-height: 100vh;
+  background-color: #fff;
 }
 
 header {
@@ -76,38 +78,127 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   justify-content: center;
   align-items: center;
 }
-#services .contact-center1 {
+#services .services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#services .services-container .contact-center1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 8px;
   margin: 10px;
 }
-#services .contact-center1 p {
+#services .services-container .contact-center1 p {
   text-align: left;
   padding: 5px;
+  margin-bottom: 0;
 }
-#services .contact-center2 {
+#services .services-container .contact-center2 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   gap: 8px;
   margin: 10px;
 }
-#services .contact-center2 p {
+#services .services-container .contact-center2 p {
   text-align: left;
   padding: 5px;
+  margin-bottom: 0;
 }
-#services .contact-center3 {
+#services .services-container .contact-center3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 8px;
   margin: 10px;
 }
-#services .contact-center3 p {
+#services .services-container .contact-center3 p {
   text-align: left;
   padding: 5px;
+  margin-bottom: 0;
+}
+
+#why-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#why-us .why-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#why-us .why-container .option-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+}
+#why-us .why-container .option-1 p {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 0;
+}
+#why-us .why-container .option-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+}
+#why-us .why-container .option-2 p {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 0;
+}
+#why-us .why-container .option-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+#why-us .why-container .option-3 p {
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 233, 228);
+}
+#contact .contact-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-title h2 {
+  margin: 0 10px 0 10px;
+}
+#contact .contact-title h3 {
+  margin: 0 10px 0 10px;
+  font-style: italic;
+}
+#contact .contact-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-bottom: 0;
+}
+#contact .contact-container .contact-text {
+  margin-right: 50px;
 }
 
 footer {
@@ -190,6 +281,14 @@ footer {
   }
 }
 
-.services-icon {
+.sections-img {
   max-width: 50vw;
+}
+
+.contact-img {
+  max-width: 30vw;
+}
+
+.mail-icon {
+  width: 15vw;
 }/*# sourceMappingURL=styles.css.map */

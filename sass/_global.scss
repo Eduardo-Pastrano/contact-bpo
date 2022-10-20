@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
+    background-color: #fff;
 }
 
 header {
@@ -79,47 +80,95 @@ header {
 }
 
 #services {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column;
 
-    .contact-center1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 8px;
-        margin: 10px;
+    .services-container {
+        @include flex-column;
 
-        p {
-            text-align: left;
-            padding: 5px;
+        .contact-center1 {
+            @include flex-row;
+    
+            p {
+                @include mobile-sections-p;
+            }
+        }
+    
+        .contact-center2 {
+            @include flex-row-reverse;
+    
+            p {
+                @include mobile-sections-p;
+            }
+        }
+    
+        .contact-center3 {
+            @include flex-row;
+    
+            p {
+                @include mobile-sections-p;
+            }
+        }
+    }
+}
+
+#why-us {
+    @include flex-column;
+
+    .why-container {
+        @include flex-column;
+
+        .option-1 {
+            @include flex-row;
+
+            p {
+                @include mobile-sections-p;
+            }
+        }
+
+        .option-2 {
+            @include flex-row-reverse;
+
+            p {
+                @include mobile-sections-p;
+            }
+        }
+
+        .option-3 {
+            @include flex-row;
+            margin-bottom: 0;
+
+            p {
+                @include mobile-sections-p;
+            }
+        }
+    }
+}
+
+#contact {
+    @include flex-column;
+    background-color: $lighest;
+
+    .contact-title {
+        @include flex-column;
+
+        h2 {
+            margin: 0 10px 0 10px;
+        }
+    
+        h3 {
+            margin: 0 10px 0 10px;
+            font-style: italic;
         }
     }
 
-    .contact-center2 {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        gap: 8px;
-        margin: 10px;
-
-        p {
-            text-align: left;
-            padding: 5px;
-        }
-    }
-
-    .contact-center3 {
+    .contact-container {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        gap: 8px;
-        margin: 10px;
+        padding: 10px;
+        padding-bottom: 0;
 
-        p {
-            text-align: left;
-            padding: 5px;
+        .contact-text {
+            margin-right: 50px;
         }
     }
 }

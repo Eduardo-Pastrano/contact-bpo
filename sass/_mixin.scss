@@ -1,0 +1,30 @@
+/*Positioning*/
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px;
+}
+
+@mixin flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px;
+}
+
+/*Text and spaces*/
+@mixin mobile-sections-p {
+        text-align: left;
+        padding: 5px;
+        margin-bottom: 0;
+}

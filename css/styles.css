@@ -205,6 +205,36 @@ footer {
   background-color: rgb(34, 34, 59);
   margin-top: auto;
 }
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  gap: 0.5em;
+}
+footer .footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 0.5rem;
+}
+footer .footer .social .social-icon {
+  width: 24px;
+}
+footer .footer .footer-text p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
+}
+footer .float-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+footer .float-button .top-button {
+  color: rgb(74, 78, 105);
+  width: 32px;
+}
 
 .textover-banner {
   position: relative;

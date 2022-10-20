@@ -169,6 +169,16 @@ header {
 
         .contact-text {
             margin-right: 50px;
+
+            .btn {
+                margin: 10px;
+            }
+        
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #0f49a1;
+                border-color: #0a58ca;
+            }
         }
     }
 }
@@ -190,6 +200,16 @@ footer {
             align-items: center;
             gap: 0.5em;
             margin-top: 0.5rem;
+
+            .icons {
+                a {
+                    color: #fff
+                }
+
+                a:hover {
+                    color: rgb(183, 183, 183);
+                }
+            }
     
             .social-icon {
                 width: 24px;

@@ -200,6 +200,14 @@ header .navbar-dark .navbar-nav .nav-link:hover {
 #contact .contact-container .contact-text {
   margin-right: 50px;
 }
+#contact .contact-container .contact-text .btn {
+  margin: 10px;
+}
+#contact .contact-container .contact-text .btn-primary:hover {
+  color: #fff;
+  background-color: #0f49a1;
+  border-color: #0a58ca;
+}
 
 footer {
   background-color: rgb(34, 34, 59);
@@ -218,6 +226,12 @@ footer .footer .social {
   align-items: center;
   gap: 0.5em;
   margin-top: 0.5rem;
+}
+footer .footer .social .icons a {
+  color: #fff;
+}
+footer .footer .social .icons a:hover {
+  color: rgb(183, 183, 183);
 }
 footer .footer .social .social-icon {
   width: 24px;

@@ -24,7 +24,7 @@
 
 /*Text and spaces*/
 @mixin mobile-sections-p {
-        text-align: left;
+        text-align: justify;
         padding: 5px;
-        margin-bottom: 0;
+        margin: 0 15px 0 15px;
 }

@@ -49,6 +49,8 @@
 
         @media (min-width: 800px) {
             top: 43%;
+            padding: 15px;
+            font-size: 25px;
         }
 
         @media (min-width: 900px) {
@@ -73,6 +75,6 @@
     max-width: 30vw;
 }
 
-.mail-icon {
-    width: 15vw;
+.logo {
+    width: 10vw;
 }

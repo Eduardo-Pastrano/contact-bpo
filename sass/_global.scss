@@ -20,8 +20,16 @@ header {
     }
 
     .navbar-dark .navbar-nav .nav-link {
-        margin: 10px;
+        margin: 8px;
         color: rgb(255, 255, 255);
+
+        @media (min-width: 576px) {
+            font-size: 16px;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+        }
     }
 
     .navbar-dark .navbar-nav .nav-link:hover {
@@ -31,24 +39,53 @@ header {
 }
 
 #banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column;
     text-align: center;
 
     h1 {
         margin: 8px;
         margin-bottom: 0;
+
+        @media (min-width: 768px) {
+            font-size: 42px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 46px;
+        }
     }
 
     p {
         margin: 8px;
         margin-bottom: 0;
+
+        @media (min-width: 576px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 26px;
+        }
     }
 
     .btn {
         margin: 10px;
+
+        @media (min-width: 576px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 26px;
+        }
     }
 
     .btn-primary:hover {
@@ -63,49 +100,179 @@ header {
 }
 
 #info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-column;
     text-align: center;
 
     h2 {
         margin: 10px;
         margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
     }
 
     p {
         margin: 8px;
+
+        @media (min-width: 576px) {
+            font-size: 20px;
+        }
+
+        @media (min-width: 768px) {
+            font-size: 24px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 26px;
+        }
     }
 }
 
 #services {
     @include flex-column;
+    gap: 15px;
+
+    @media (min-width: 768px) {
+        margin-top: 18px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 28px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
+    }
 
     .services-container {
         @include flex-column;
+        gap: 25px;
 
         .contact-center1 {
-            @include flex-row;
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
     
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
     
         .contact-center2 {
-            @include flex-row-reverse;
-    
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row-reverse;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row-reverse;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
     
         .contact-center3 {
-            @include flex-row;
-    
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
     }
@@ -113,32 +280,147 @@ header {
 
 #why-us {
     @include flex-column;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    @media (min-width: 768px) {
+        margin-top: 28px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 40px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
+    }
 
     .why-container {
         @include flex-column;
+        gap: 25px;
 
         .option-1 {
-            @include flex-row;
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
 
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
 
         .option-2 {
-            @include flex-row-reverse;
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row-reverse;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row-reverse;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
 
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+                
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
 
         .option-3 {
-            @include flex-row;
+            @include flex-column;
             margin-bottom: 0;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
 
             p {
                 @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
             }
         }
     }
@@ -150,6 +432,19 @@ header {
 
     .contact-title {
         @include flex-column;
+        margin-top: 5px;
+
+        @media (min-width: 576px) {
+            margin-top: 10px;
+        }
+
+        @media (min-width: 768px) {
+            margin-top: 12px;
+        }
+
+        @media (min-width: 992px) {
+            margin-top: 14px;
+        }
 
         h2 {
             margin: 0 10px 0 10px;
@@ -164,20 +459,99 @@ header {
     .contact-container {
         display: flex;
         flex-direction: row;
-        padding: 10px;
+        padding: 8px;
         padding-bottom: 0;
+        gap: 3em;
+
+        @media (min-width: 576px) {
+            gap: 8em;
+        }
+
+        @media (min-width: 768px) {
+            gap: 15em;
+        }
+
+        @media (min-width: 992px) {
+            gap: 20em;
+        }
 
         .contact-text {
-            margin-right: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
-            .btn {
-                margin: 10px;
+            .contact-phone {
+                margin-bottom: 8px;
+
+                @media (min-width: 576px) {
+                    margin-bottom: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    margin-bottom: 40px;
+                }
+
+                @media (min-width: 992px) {
+                    margin-bottom: 60px;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+
+                p {
+                    margin: 0;
+
+                    @media (min-width: 576px) {
+                        font-size: 20px;
+                    }
+    
+                    @media (min-width: 768px) {
+                        font-size: 32px;
+                    }
+
+                    @media (min-width: 992px) {
+                        font-size: 38px;
+                    }
+                }
             }
-        
-            .btn-primary:hover {
-                color: #fff;
-                background-color: #0f49a1;
-                border-color: #0a58ca;
+
+            .contact-email {
+                margin-top: 8px;
+
+                @media (min-width: 576px) {
+                    margin-top: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    margin-top: 40px;
+                }
+
+                @media (min-width: 992px) {
+                    margin-top: 60px;
+                }
+
+                h3 {
+                    margin: 0;
+                }
+
+                .btn {
+                    margin: 5px;
+
+                    @media (min-width: 576px) {
+                        font-size: 20px;
+                    }
+
+                    @media (min-width: 992px) {
+                        font-size: 24px;
+                    }
+                }
+            
+                .btn-primary:hover {
+                    color: #fff;
+                    background-color: #0f49a1;
+                    border-color: #0a58ca;
+                }
             }
         }
     }
@@ -192,14 +566,13 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 0.5em;
-        gap: 0.5em;
 
         .social {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 0.5em;
-            margin-top: 0.5rem;
+            margin: 5px;
 
             .icons {
                 a {
@@ -213,6 +586,18 @@ footer {
     
             .social-icon {
                 width: 24px;
+
+                @media (min-width: 576px) {
+                    width: 28px;
+                }
+
+                @media (min-width: 768px) {
+                    width: 30px;
+                }
+        
+                @media (min-width: 992px) {
+                    width: 32px;
+                }
             }
         }
 
@@ -232,6 +617,18 @@ footer {
         .top-button {
             color: $dark;
             width: 32px;
+
+            @media (min-width: 576px) {
+                width: 34px;
+            }
+    
+            @media (min-width: 768px) {
+                width: 36px;
+            }
+    
+            @media (min-width: 992px) {
+                width: 38px;
+            }
         }
     }
 }

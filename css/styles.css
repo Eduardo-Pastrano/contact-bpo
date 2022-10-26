@@ -39,6 +39,9 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   color: rgba(197, 197, 197, 0.634);
   transition: 0.5s;
 }
+header .navbar-nav {
+  margin-left: auto;
+}
 
 #banner {
   display: flex;

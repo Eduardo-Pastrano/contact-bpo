@@ -92,10 +92,16 @@ header {
         }
     }
 
+    .btn-primary {
+        color: white;
+        background-color: $black-25;
+        border-color: $black-50;
+    }
+
     .btn-primary:hover {
         color: #fff;
-        background-color: #0f49a1;
-        border-color: #0a58ca;
+        background-color: $red-100;
+        border-color: $red-25;
     }
 
     figure {
@@ -137,7 +143,7 @@ header {
     }
 }
 
-#solutions {
+#what-we-do {
     @include flex-column;
     gap: 15px;
 
@@ -162,11 +168,118 @@ header {
         }
     }
 
+    .what-container {
+        @include flex-column;
+        gap: 25px;
+
+        .what-section {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .what-section1 {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row-reverse;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row-reverse;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+#solutions {
+    @include flex-column;
+    gap: 15px;
+
+    @media (min-width: 768px) {
+        margin-top: 18px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 28px;
+    }
+
+    h2 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
+    }
+
     .solutions-container {
         @include flex-column;
         gap: 25px;
 
-        .contact-center1 {
+        .solutions-section {
             @include flex-column;
             gap: 10px;
 
@@ -183,44 +296,6 @@ header {
 
             @media (min-width: 992px) {
                 @include flex-row;
-                margin: 0 16px 0 16px;
-                gap: 16px;
-            }
-    
-            p {
-                @include mobile-sections-p;
-
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
-
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
-
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
-    
-        .contact-center2 {
-            @include flex-column;
-            gap: 10px;
-
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
-
-            @media (min-width: 768px) {
-                @include flex-row-reverse;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
-
-            @media (min-width: 992px) {
-                @include flex-row-reverse;
                 margin: 0 16px 0 16px;
                 gap: 16px;
             }
@@ -241,8 +316,8 @@ header {
                 }
             }
         }
-    
-        .contact-center3 {
+
+        .solutions-section1 {
             @include flex-column;
             gap: 10px;
 
@@ -252,13 +327,13 @@ header {
             }
 
             @media (min-width: 768px) {
-                @include flex-row;
+                @include flex-row-reverse;
                 margin: 0 14px 0 14px;
                 gap: 14px;
             }
 
             @media (min-width: 992px) {
-                @include flex-row;
+                @include flex-row-reverse;
                 margin: 0 16px 0 16px;
                 gap: 16px;
             }
@@ -309,11 +384,11 @@ header {
         }
     }
 
-    .why-container {
+    .demo-container {
         @include flex-column;
         gap: 25px;
 
-        .option-1 {
+        .demo-section {
             @include flex-column;
             gap: 10px;
 
@@ -351,7 +426,7 @@ header {
             }
         }
 
-        .option-2 {
+        .demo-section1 {
             @include flex-column;
             gap: 10px;
 
@@ -368,45 +443,6 @@ header {
 
             @media (min-width: 992px) {
                 @include flex-row-reverse;
-                margin: 0 16px 0 16px;
-                gap: 16px;
-            }
-
-            p {
-                @include mobile-sections-p;
-
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
-
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
-                
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
-
-        .option-3 {
-            @include flex-column;
-            margin-bottom: 0;
-            gap: 10px;
-
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
-
-            @media (min-width: 768px) {
-                @include flex-row;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
-
-            @media (min-width: 992px) {
-                @include flex-row;
                 margin: 0 16px 0 16px;
                 gap: 16px;
             }
@@ -430,8 +466,219 @@ header {
     }
 }
 
+#free-trial {
+    @include flex-column;
+    gap: 15px;
 
+    @media (min-width: 768px) {
+        margin-top: 18px;
+    }
 
+    @media (min-width: 992px) {
+        margin-top: 28px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
+    }
+
+    .free-container {
+        @include flex-column;
+        gap: 25px;
+
+        .free-section {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .free-section1 {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row-reverse;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row-reverse;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+#pricing {
+    @include flex-column;
+    gap: 15px;
+
+    @media (min-width: 768px) {
+        margin-top: 18px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 28px;
+    }
+
+    h2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+
+        @media (min-width: 768px) {
+            font-size: 32px;
+        }
+
+        @media (min-width: 992px) {
+            font-size: 36px;
+        }
+    }
+
+    .pricing-container {
+        @include flex-column;
+        gap: 25px;
+
+        .pricing-section {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .pricing-section1 {
+            @include flex-column;
+            gap: 10px;
+
+            @media (min-width: 576px) {
+                @include flex-column;
+                gap: 12px;
+            }
+
+            @media (min-width: 768px) {
+                @include flex-row-reverse;
+                margin: 0 14px 0 14px;
+                gap: 14px;
+            }
+
+            @media (min-width: 992px) {
+                @include flex-row-reverse;
+                margin: 0 16px 0 16px;
+                gap: 16px;
+            }
+
+            p {
+                @include mobile-sections-p;
+
+                @media (min-width: 576px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 992px) {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
 
 #contact {
     @include flex-column;
@@ -456,7 +703,7 @@ header {
         h2 {
             margin: 0 10px 0 10px;
         }
-    
+
         h3 {
             margin: 0 10px 0 10px;
             font-style: italic;
@@ -512,7 +759,7 @@ header {
                     @media (min-width: 576px) {
                         font-size: 20px;
                     }
-    
+
                     @media (min-width: 768px) {
                         font-size: 32px;
                     }
@@ -553,11 +800,17 @@ header {
                         font-size: 24px;
                     }
                 }
+
+                .btn-primary {
+                    color: #fff;
+                    background-color: $red-100;
+                    border-color: $red-25;
+                }
             
                 .btn-primary:hover {
                     color: #fff;
-                    background-color: #0f49a1;
-                    border-color: #0a58ca;
+                    background-color: $black-25;
+                    border-color: $black-50;
                 }
             }
         }
@@ -590,7 +843,7 @@ footer {
                     color: rgb(183, 183, 183);
                 }
             }
-    
+
             .social-icon {
                 width: 24px;
 
@@ -601,7 +854,7 @@ footer {
                 @media (min-width: 768px) {
                     width: 30px;
                 }
-        
+
                 @media (min-width: 992px) {
                     width: 32px;
                 }
@@ -610,7 +863,7 @@ footer {
 
         .footer-text {
             p {
-                color:rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
                 margin-bottom: 0;
             }
         }
@@ -628,11 +881,11 @@ footer {
             @media (min-width: 576px) {
                 width: 34px;
             }
-    
+
             @media (min-width: 768px) {
                 width: 36px;
             }
-    
+
             @media (min-width: 992px) {
                 width: 38px;
             }

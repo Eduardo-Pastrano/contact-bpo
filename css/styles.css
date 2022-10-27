@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background-color: #BFBFBF;
+  background-color: #161616;
 }
 header .navbar-dark .navbar-toggler {
   color: #161616;
@@ -23,7 +23,7 @@ header .navbar-dark .navbar-toggler {
 }
 header .navbar-dark .navbar-nav .nav-link {
   margin: 8px;
-  color: #161616;
+  color: #fff;
 }
 @media (min-width: 576px) {
   header .navbar-dark .navbar-nav .nav-link {
@@ -36,7 +36,7 @@ header .navbar-dark .navbar-nav .nav-link {
   }
 }
 header .navbar-dark .navbar-nav .nav-link:hover {
-  color: white;
+  color: #F14D60;
   transition: 0.5s;
 }
 header .navbar-nav {

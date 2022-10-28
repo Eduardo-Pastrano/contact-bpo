@@ -1,6 +1,6 @@
 /*Color palette*/ /*Positioning*/
 /*Text and spaces*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   background-color: #fff;
 }
@@ -39,8 +39,43 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   color: #F14D60;
   transition: 0.5s;
 }
+header .navbar-expand-lg, header .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 header .navbar-nav {
   margin-left: auto;
+}
+header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {
+  padding: 8px;
+}
+@media (min-width: 576px) {
+  header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {
+    font-size: 18px;
+  }
+}
+header .navbar-nav .nav-link .btn-primary {
+  color: white;
+  background-color: #EE2038;
+  border-color: #F57988;
+  border-radius: 16px;
+}
+header .navbar-nav .nav-link .btn-primary:hover {
+  color: #fff;
+  background-color: #F14D60;
+  border-color: #fff;
 }
 
 #banner {
@@ -82,34 +117,6 @@ header .navbar-nav {
   #banner p {
     font-size: 26px;
   }
-}
-#banner .btn {
-  margin: 10px;
-}
-@media (min-width: 576px) {
-  #banner .btn {
-    font-size: 20px;
-  }
-}
-@media (min-width: 768px) {
-  #banner .btn {
-    font-size: 24px;
-  }
-}
-@media (min-width: 992px) {
-  #banner .btn {
-    font-size: 26px;
-  }
-}
-#banner .btn-primary {
-  color: white;
-  background-color: #EE2038;
-  border-color: #F57988;
-}
-#banner .btn-primary:hover {
-  color: #fff;
-  background-color: #737373;
-  border-color: #454545;
 }
 #banner figure {
   margin: 0;
@@ -1070,14 +1077,15 @@ header .navbar-nav {
   }
 }
 #contact .contact-container .contact-text .contact-email .btn-primary {
-  color: #fff;
+  color: white;
   background-color: #EE2038;
   border-color: #F57988;
+  border-radius: 16px;
 }
 #contact .contact-container .contact-text .contact-email .btn-primary:hover {
   color: #fff;
-  background-color: #737373;
-  border-color: #454545;
+  background-color: #F14D60;
+  border-color: #fff;
 }
 
 footer {

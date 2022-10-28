@@ -38,10 +38,13 @@ header {
     }
 
     .navbar-expand-lg, .navbar-nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+
+        @media (min-width: 992px) {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     .navbar-nav {
@@ -50,7 +53,6 @@ header {
         .nav-link {
 
             .btn-group-sm > .btn, .btn-sm {
-                padding: 8px;
         
                 @media (min-width: 576px) {
                     font-size: 20px;

@@ -39,17 +39,16 @@ header .navbar-dark .navbar-nav .nav-link:hover {
   color: #F14D60;
   transition: 0.5s;
 }
-header .navbar-expand-lg, header .navbar-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 992px) {
+  header .navbar-expand-lg, header .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 header .navbar-nav {
   margin-left: auto;
-}
-header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {
-  padding: 8px;
 }
 @media (min-width: 576px) {
   header .navbar-nav .nav-link .btn-group-sm > .btn, header .navbar-nav .nav-link .btn-sm {

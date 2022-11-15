@@ -1233,9 +1233,12 @@ footer .float-button .top-button {
     font-size: 55px;
   }
 }
+.textover-banner figcaption p {
+  font-weight: 500;
+}
 .textover-banner figcaption .textover-paragraph {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   width: 570px;
 }
 .textover-banner figcaption span {

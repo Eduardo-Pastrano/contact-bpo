@@ -1167,7 +1167,6 @@ footer .float-button .top-button {
   color: white;
   width: 100%;
   text-align: left;
-  font-weight: 700;
   font-size: 20px;
   font-style: italic;
   padding: 10px;
@@ -1230,9 +1229,14 @@ footer .float-button .top-button {
 }
 @media (min-width: 1000px) {
   .textover-banner figcaption {
-    top: 40%;
+    top: 25%;
     font-size: 35px;
   }
+}
+.textover-banner figcaption .textover-paragraph {
+  font-size: 12px;
+  font-weight: 400;
+  width: 570px;
 }
 
 .sections-img {

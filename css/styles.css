@@ -1238,6 +1238,9 @@ footer .float-button .top-button {
   font-weight: 400;
   width: 570px;
 }
+.textover-banner figcaption span {
+  font-weight: 500;
+}
 
 .sections-img {
   max-width: 50vw;

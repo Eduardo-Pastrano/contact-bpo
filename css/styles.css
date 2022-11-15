@@ -23,7 +23,7 @@ header .navbar-dark .navbar-toggler {
 }
 header .navbar-dark .navbar-nav .nav-link {
   margin: 8px;
-  color: #fff;
+  color: #737373;
 }
 @media (min-width: 576px) {
   header .navbar-dark .navbar-nav .nav-link {
@@ -83,39 +83,6 @@ header .navbar-nav .nav-link .btn-primary:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-#banner h1 {
-  margin: 8px;
-  margin-bottom: 0;
-}
-@media (min-width: 768px) {
-  #banner h1 {
-    font-size: 42px;
-  }
-}
-@media (min-width: 992px) {
-  #banner h1 {
-    font-size: 46px;
-  }
-}
-#banner p {
-  margin: 8px;
-  margin-bottom: 0;
-}
-@media (min-width: 576px) {
-  #banner p {
-    font-size: 16px;
-  }
-}
-@media (min-width: 768px) {
-  #banner p {
-    font-size: 18px;
-  }
-}
-@media (min-width: 992px) {
-  #banner p {
-    font-size: 20px;
-  }
 }
 #banner figure {
   margin: 0;
@@ -1162,87 +1129,318 @@ footer .float-button .top-button {
 }
 .textover-banner figcaption {
   position: absolute;
-  top: 0%;
-  left: 0;
+  top: 17%;
+  left: 0%;
   color: #737373;
-  width: 100%;
   text-align: left;
-  font-size: 20px;
   font-style: italic;
-  padding: 10px;
-  margin-left: 15px;
+}
+.textover-banner figcaption p {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.textover-banner figcaption h1 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.textover-banner figcaption h1 span {
+  font-weight: 600;
+}
+.textover-banner figcaption .textover-paragraph {
+  font-size: 8px;
+  font-weight: 600;
+  width: 300px;
 }
 @media (min-width: 350px) {
   .textover-banner figcaption {
-    top: 8%;
+    top: 18%;
+  }
+  .textover-banner figcaption p {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 8px;
+    font-weight: 600;
+    width: 320px;
   }
 }
 @media (min-width: 400px) {
   .textover-banner figcaption {
-    top: 18%;
+    top: 12%;
+  }
+  .textover-banner figcaption p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 10px;
+    font-weight: 600;
+    width: 320px;
   }
 }
 @media (min-width: 450px) {
   .textover-banner figcaption {
-    top: 22%;
+    top: 13%;
+  }
+  .textover-banner figcaption p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 12px;
+    font-weight: 600;
+    width: 350px;
   }
 }
 @media (min-width: 500px) {
   .textover-banner figcaption {
-    top: 30%;
+    top: 16%;
+  }
+  .textover-banner figcaption p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 12px;
+    font-weight: 600;
+    width: 350px;
   }
 }
 @media (min-width: 550px) {
   .textover-banner figcaption {
-    top: 32%;
+    top: 15%;
+  }
+  .textover-banner figcaption p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    width: 400px;
   }
 }
 @media (min-width: 600px) {
   .textover-banner figcaption {
-    top: 33%;
+    top: 18%;
+  }
+  .textover-banner figcaption p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    width: 400px;
   }
 }
 @media (min-width: 650px) {
   .textover-banner figcaption {
-    top: 35%;
+    top: 18%;
+  }
+  .textover-banner figcaption p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 14px;
+    font-weight: 600;
+    width: 400px;
   }
 }
 @media (min-width: 700px) {
   .textover-banner figcaption {
-    top: 40%;
-    padding: 15px;
-    font-size: 25px;
+    top: 17%;
+  }
+  .textover-banner figcaption p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 16px;
+    font-weight: 600;
+    width: 500px;
   }
 }
 @media (min-width: 800px) {
   .textover-banner figcaption {
-    top: 43%;
-    padding: 15px;
-    font-size: 25px;
+    top: 20%;
+  }
+  .textover-banner figcaption p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 22px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 22px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 18px;
+    font-weight: 600;
+    width: 550px;
   }
 }
 @media (min-width: 900px) {
   .textover-banner figcaption {
-    top: 35%;
-    font-size: 30px;
+    top: 20%;
+  }
+  .textover-banner figcaption p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 18px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 18px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 20px;
+    font-weight: 600;
+    width: 600px;
   }
 }
 @media (min-width: 1000px) {
   .textover-banner figcaption {
-    top: 25%;
-    font-size: 55px;
+    top: 23%;
   }
-}
-.textover-banner figcaption p {
-  font-weight: 500;
-}
-.textover-banner figcaption .textover-paragraph {
-  font-size: 12px;
-  font-weight: 500;
-  width: 570px;
-}
-.textover-banner figcaption span {
-  font-weight: 500;
+  .textover-banner figcaption p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+  .textover-banner figcaption h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+  .textover-banner figcaption h1 span {
+    font-weight: 600;
+  }
+  .textover-banner figcaption .textover-paragraph {
+    font-size: 22px;
+    font-weight: 600;
+    width: 600px;
+  }
 }
 
 .sections-img {

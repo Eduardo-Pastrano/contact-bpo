@@ -21,7 +21,7 @@ header {
 
     .navbar-dark .navbar-nav .nav-link {
         margin: 8px;
-        color: #fff;
+        color: $logo-font;
 
         @media (min-width: 576px) {
             font-size: 16px;
@@ -86,36 +86,6 @@ header {
 #banner {
     @include flex-column;
     text-align: center;
-
-    h1 {
-        margin: 8px;
-        margin-bottom: 0;
-
-        @media (min-width: 768px) {
-            font-size: 42px;
-        }
-
-        @media (min-width: 992px) {
-            font-size: 46px;
-        }
-    }
-
-    p {
-        margin: 8px;
-        margin-bottom: 0;
-
-        @media (min-width: 576px) {
-            font-size: 16px;
-        }
-
-        @media (min-width: 768px) {
-            font-size: 18px;
-        }
-
-        @media (min-width: 992px) {
-            font-size: 20px;
-        }
-    }
 
     figure {
         margin: 0;

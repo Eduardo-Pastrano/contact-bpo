@@ -69,14 +69,14 @@ header {
         
             .btn-primary {
                 color: white;
-                background-color: $red-100;
-                border-color: $red-25;
+                background-color: $burgundy-100;
+                border-color: $burgundy-25;
                 border-radius: 16px;
             }
         
             .btn-primary:hover {
                 color: #fff;
-                background-color: $red-50;
+                background-color: $burgundy-50;
                 border-color: #fff;
             }
         }
@@ -129,6 +129,7 @@ header {
 #what-we-do {
     @include flex-column;
     gap: 15px;
+    margin: 10px 0px 10px 0px;
 
     @media (min-width: 768px) {
         margin-top: 18px;
@@ -138,8 +139,26 @@ header {
         margin-top: 28px;
     }
 
+    a {
+        margin-bottom: 5px;
+
+        button {
+            @media (min-width: 576px) {
+                font-size: 18px;
+            }
+    
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+    
+            @media (min-width: 992px) {
+                font-size: 24px;
+            }
+        }
+    }
+
     h2 {
-        margin-top: 0;
+        margin-top: 0px;
         margin-bottom: 0px;
 
         @media (min-width: 768px) {
@@ -236,6 +255,7 @@ header {
 #solutions {
     @include flex-column;
     gap: 15px;
+    margin: 10px 0px 10px 0px;
 
     @media (min-width: 768px) {
         margin-top: 18px;
@@ -245,9 +265,28 @@ header {
         margin-top: 28px;
     }
 
+    a {
+        margin-left: 20px;
+        align-self: flex-start;
+
+        button {
+            @media (min-width: 576px) {
+                font-size: 18px;
+            }
+    
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+    
+            @media (min-width: 992px) {
+                font-size: 24px;
+            }
+        }
+    }
+
     h2 {
-        margin-top: 8px;
-        margin-bottom: 8px;
+        margin: 8px 10px 8px 10px;
+        text-align: center;
 
         @media (min-width: 768px) {
             font-size: 32px;
@@ -354,17 +393,28 @@ header {
         margin-top: 40px;
     }
 
-    h2 {
-        margin-top: 0;
-        margin-bottom: 0px;
+    a {
+        margin-left: 20px;
+        align-self: flex-start;
 
-        @media (min-width: 768px) {
-            font-size: 32px;
+        button {
+            @media (min-width: 576px) {
+                font-size: 18px;
+            }
+    
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+    
+            @media (min-width: 992px) {
+                font-size: 24px;
+            }
         }
+    }
 
-        @media (min-width: 992px) {
-            font-size: 36px;
-        }
+    h3 {
+        margin: 0px 10px 8px 10px;
+        text-align: center;
     }
 
     .demo-container {
@@ -559,6 +609,7 @@ header {
 #pricing {
     @include flex-column;
     gap: 15px;
+    margin: 10px 0px 10px 0px;
 
     @media (min-width: 768px) {
         margin-top: 18px;
@@ -568,9 +619,29 @@ header {
         margin-top: 28px;
     }
 
+    a {
+        margin-left: 20px;
+        align-self: flex-start;
+
+        button {
+            @media (min-width: 576px) {
+                font-size: 18px;
+            }
+    
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+    
+            @media (min-width: 992px) {
+                font-size: 24px;
+            }
+        }
+    }
+
     h2 {
-        margin-top: 10px;
-        margin-bottom: 0px;
+        margin: 10px 10px 0px 10px;
+        text-align: center;
+
 
         @media (min-width: 768px) {
             font-size: 32px;

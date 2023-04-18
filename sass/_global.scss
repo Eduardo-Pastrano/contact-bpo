@@ -757,11 +757,20 @@ header {
 
         h2 {
             margin: 0 10px 0 10px;
+    
+            @media (min-width: 992px) {
+                margin-top: 14px;
+                font-size: 55px;
+            }
         }
 
         h3 {
             margin: 0 10px 0 10px;
             font-style: italic;
+
+            @media (min-width: 992px) {
+                font-size: 35px;
+            }
         }
     }
 
@@ -789,7 +798,7 @@ header {
             flex-direction: column;
             justify-content: center;
 
-            .contact-phone {
+            .contact-phone, .contact-address {
                 margin-bottom: 8px;
 
                 @media (min-width: 576px) {
@@ -797,11 +806,11 @@ header {
                 }
 
                 @media (min-width: 768px) {
-                    margin-bottom: 40px;
+                    margin-bottom: 10px;
                 }
 
                 @media (min-width: 992px) {
-                    margin-bottom: 60px;
+                    margin-bottom: 15px;
                 }
 
                 h3 {
@@ -813,14 +822,17 @@ header {
 
                     @media (min-width: 576px) {
                         font-size: 20px;
+                        margin-bottom: 2px;
                     }
 
                     @media (min-width: 768px) {
-                        font-size: 32px;
+                        font-size: 24px;
+                        margin-bottom: 2px;
                     }
 
                     @media (min-width: 992px) {
                         font-size: 38px;
+                        margin-bottom: 2px;
                     }
                 }
             }
@@ -833,11 +845,11 @@ header {
                 }
 
                 @media (min-width: 768px) {
-                    margin-top: 40px;
+                    margin-top: 10px;
                 }
 
                 @media (min-width: 992px) {
-                    margin-top: 60px;
+                    margin-top: 10px;
                 }
 
                 h3 {

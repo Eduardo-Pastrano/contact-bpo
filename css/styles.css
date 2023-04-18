@@ -1006,9 +1006,20 @@ header .navbar-nav .nav-link .btn-primary:hover {
 #contact .contact-title h2 {
   margin: 0 10px 0 10px;
 }
+@media (min-width: 992px) {
+  #contact .contact-title h2 {
+    margin-top: 14px;
+    font-size: 55px;
+  }
+}
 #contact .contact-title h3 {
   margin: 0 10px 0 10px;
   font-style: italic;
+}
+@media (min-width: 992px) {
+  #contact .contact-title h3 {
+    font-size: 35px;
+  }
 }
 #contact .contact-container {
   display: flex;
@@ -1037,43 +1048,46 @@ header .navbar-nav .nav-link .btn-primary:hover {
   flex-direction: column;
   justify-content: center;
 }
-#contact .contact-container .contact-text .contact-phone {
+#contact .contact-container .contact-text .contact-phone, #contact .contact-container .contact-text .contact-address {
   margin-bottom: 8px;
 }
 @media (min-width: 576px) {
-  #contact .contact-container .contact-text .contact-phone {
+  #contact .contact-container .contact-text .contact-phone, #contact .contact-container .contact-text .contact-address {
     margin-bottom: 20px;
   }
 }
 @media (min-width: 768px) {
-  #contact .contact-container .contact-text .contact-phone {
-    margin-bottom: 40px;
+  #contact .contact-container .contact-text .contact-phone, #contact .contact-container .contact-text .contact-address {
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 992px) {
-  #contact .contact-container .contact-text .contact-phone {
-    margin-bottom: 60px;
+  #contact .contact-container .contact-text .contact-phone, #contact .contact-container .contact-text .contact-address {
+    margin-bottom: 15px;
   }
 }
-#contact .contact-container .contact-text .contact-phone h3 {
+#contact .contact-container .contact-text .contact-phone h3, #contact .contact-container .contact-text .contact-address h3 {
   margin: 0;
 }
-#contact .contact-container .contact-text .contact-phone p {
+#contact .contact-container .contact-text .contact-phone p, #contact .contact-container .contact-text .contact-address p {
   margin: 0;
 }
 @media (min-width: 576px) {
-  #contact .contact-container .contact-text .contact-phone p {
+  #contact .contact-container .contact-text .contact-phone p, #contact .contact-container .contact-text .contact-address p {
     font-size: 20px;
+    margin-bottom: 2px;
   }
 }
 @media (min-width: 768px) {
-  #contact .contact-container .contact-text .contact-phone p {
-    font-size: 32px;
+  #contact .contact-container .contact-text .contact-phone p, #contact .contact-container .contact-text .contact-address p {
+    font-size: 24px;
+    margin-bottom: 2px;
   }
 }
 @media (min-width: 992px) {
-  #contact .contact-container .contact-text .contact-phone p {
+  #contact .contact-container .contact-text .contact-phone p, #contact .contact-container .contact-text .contact-address p {
     font-size: 38px;
+    margin-bottom: 2px;
   }
 }
 #contact .contact-container .contact-text .contact-email {
@@ -1086,12 +1100,12 @@ header .navbar-nav .nav-link .btn-primary:hover {
 }
 @media (min-width: 768px) {
   #contact .contact-container .contact-text .contact-email {
-    margin-top: 40px;
+    margin-top: 10px;
   }
 }
 @media (min-width: 992px) {
   #contact .contact-container .contact-text .contact-email {
-    margin-top: 60px;
+    margin-top: 10px;
   }
 }
 #contact .contact-container .contact-text .contact-email h3 {

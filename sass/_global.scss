@@ -252,6 +252,19 @@ header {
     }
 }
 
+#more-info {
+    @include flex-column;
+    gap: 15px;
+
+    h2 {
+        margin: 8px 10px 8px 10px;
+    }
+        
+    .form, .maps {
+        width: 90%;
+    }
+}
+
 #solutions {
     @include flex-column;
     gap: 15px;

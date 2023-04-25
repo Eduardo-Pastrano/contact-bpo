@@ -302,6 +302,20 @@ header .navbar-nav .nav-link .btn-primary:hover {
   }
 }
 
+#more-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#more-info h2 {
+  margin: 8px 10px 8px 10px;
+}
+#more-info .form, #more-info .maps {
+  width: 90%;
+}
+
 #solutions {
   display: flex;
   flex-direction: column;

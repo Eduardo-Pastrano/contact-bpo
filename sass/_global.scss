@@ -37,7 +37,8 @@ header {
         transition: 0.5s;
     }
 
-    .navbar-expand-lg, .navbar-nav {
+    .navbar-expand-lg,
+    .navbar-nav {
 
         @media (min-width: 992px) {
             display: flex;
@@ -49,31 +50,32 @@ header {
 
     .navbar-nav {
         margin-left: auto;
-        
+
         .nav-link {
 
-            .btn-group-sm > .btn, .btn-sm {
-        
+            .btn-group-sm>.btn,
+            .btn-sm {
+
                 @media (min-width: 576px) {
                     font-size: 20px;
                 }
-        
+
                 @media (min-width: 768px) {
                     font-size: 20px;
                 }
-        
+
                 @media (min-width: 992px) {
                     font-size: 18px;
                 }
             }
-        
+
             .btn-primary {
                 color: white;
                 background-color: $burgundy-100;
                 border-color: $burgundy-25;
                 border-radius: 16px;
             }
-        
+
             .btn-primary:hover {
                 color: #fff;
                 background-color: $burgundy-50;
@@ -146,11 +148,11 @@ header {
             @media (min-width: 576px) {
                 font-size: 18px;
             }
-    
+
             @media (min-width: 768px) {
                 font-size: 20px;
             }
-    
+
             @media (min-width: 992px) {
                 font-size: 24px;
             }
@@ -259,8 +261,9 @@ header {
     h2 {
         margin: 8px 10px 8px 10px;
     }
-        
-    .form, .maps {
+
+    .form,
+    .maps {
         width: 90%;
     }
 }
@@ -286,11 +289,11 @@ header {
             @media (min-width: 576px) {
                 font-size: 18px;
             }
-    
+
             @media (min-width: 768px) {
                 font-size: 20px;
             }
-    
+
             @media (min-width: 992px) {
                 font-size: 24px;
             }
@@ -414,11 +417,11 @@ header {
             @media (min-width: 576px) {
                 font-size: 18px;
             }
-    
+
             @media (min-width: 768px) {
                 font-size: 20px;
             }
-    
+
             @media (min-width: 992px) {
                 font-size: 24px;
             }
@@ -619,133 +622,133 @@ header {
 //     }
 // }
 
-#pricing {
-    @include flex-column;
-    gap: 15px;
-    margin: 10px 0px 10px 0px;
+// #pricing {
+//     @include flex-column;
+//     gap: 15px;
+//     margin: 10px 0px 10px 0px;
 
-    @media (min-width: 768px) {
-        margin-top: 18px;
-    }
+//     @media (min-width: 768px) {
+//         margin-top: 18px;
+//     }
 
-    @media (min-width: 992px) {
-        margin-top: 28px;
-    }
+//     @media (min-width: 992px) {
+//         margin-top: 28px;
+//     }
 
-    a {
-        margin-left: 20px;
-        align-self: flex-start;
+//     a {
+//         margin-left: 20px;
+//         align-self: flex-start;
 
-        button {
-            @media (min-width: 576px) {
-                font-size: 18px;
-            }
-    
-            @media (min-width: 768px) {
-                font-size: 20px;
-            }
-    
-            @media (min-width: 992px) {
-                font-size: 24px;
-            }
-        }
-    }
+//         button {
+//             @media (min-width: 576px) {
+//                 font-size: 18px;
+//             }
 
-    h2 {
-        margin: 10px 10px 0px 10px;
-        text-align: center;
+//             @media (min-width: 768px) {
+//                 font-size: 20px;
+//             }
+
+//             @media (min-width: 992px) {
+//                 font-size: 24px;
+//             }
+//         }
+//     }
+
+//     h2 {
+//         margin: 10px 10px 0px 10px;
+//         text-align: center;
 
 
-        @media (min-width: 768px) {
-            font-size: 32px;
-        }
+//         @media (min-width: 768px) {
+//             font-size: 32px;
+//         }
 
-        @media (min-width: 992px) {
-            font-size: 36px;
-        }
-    }
+//         @media (min-width: 992px) {
+//             font-size: 36px;
+//         }
+//     }
 
-    .pricing-container {
-        @include flex-column;
-        gap: 25px;
+//     .pricing-container {
+//         @include flex-column;
+//         gap: 25px;
 
-        .pricing-section {
-            @include flex-column;
-            gap: 10px;
+//         .pricing-section {
+//             @include flex-column;
+//             gap: 10px;
 
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
+//             @media (min-width: 576px) {
+//                 @include flex-column;
+//                 gap: 12px;
+//             }
 
-            @media (min-width: 768px) {
-                @include flex-row;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
+//             @media (min-width: 768px) {
+//                 @include flex-row;
+//                 margin: 0 14px 0 14px;
+//                 gap: 14px;
+//             }
 
-            @media (min-width: 992px) {
-                @include flex-row;
-                margin: 0 50px 0 50px;
-                gap: 16px;
-            }
+//             @media (min-width: 992px) {
+//                 @include flex-row;
+//                 margin: 0 50px 0 50px;
+//                 gap: 16px;
+//             }
 
-            p {
-                @include mobile-sections-p;
+//             p {
+//                 @include mobile-sections-p;
 
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     font-size: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
+//                 @media (min-width: 768px) {
+//                     font-size: 24px;
+//                 }
 
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
+//                 @media (min-width: 992px) {
+//                     font-size: 26px;
+//                 }
+//             }
+//         }
 
-        .pricing-section1 {
-            @include flex-column;
-            gap: 10px;
+//         .pricing-section1 {
+//             @include flex-column;
+//             gap: 10px;
 
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
+//             @media (min-width: 576px) {
+//                 @include flex-column;
+//                 gap: 12px;
+//             }
 
-            @media (min-width: 768px) {
-                @include flex-row-reverse;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
+//             @media (min-width: 768px) {
+//                 @include flex-row-reverse;
+//                 margin: 0 14px 0 14px;
+//                 gap: 14px;
+//             }
 
-            @media (min-width: 992px) {
-                @include flex-row-reverse;
-                margin: 0 50px 0 50px;
-                gap: 16px;
-            }
+//             @media (min-width: 992px) {
+//                 @include flex-row-reverse;
+//                 margin: 0 50px 0 50px;
+//                 gap: 16px;
+//             }
 
-            p {
-                @include mobile-sections-p;
+//             p {
+//                 @include mobile-sections-p;
 
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     font-size: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
+//                 @media (min-width: 768px) {
+//                     font-size: 24px;
+//                 }
 
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
-    }
-}
+//                 @media (min-width: 992px) {
+//                     font-size: 26px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 // #contact {
 //     @include flex-column;
@@ -770,7 +773,7 @@ header {
 
 //         h2 {
 //             margin: 0 10px 0 10px;
-    
+
 //             @media (min-width: 992px) {
 //                 margin-top: 14px;
 //                 font-size: 55px;
@@ -887,7 +890,7 @@ header {
 //                     border-color: $red-25;
 //                     border-radius: 16px;
 //                 }
-            
+
 //                 .btn-primary:hover {
 //                     color: #fff;
 //                     background-color: $red-50;
@@ -909,11 +912,47 @@ footer {
         padding: 0.5em;
 
         .footer-map {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.5em;
-            margin: 5px;
+            @include flex-row;
+
+            .footer-column {
+                color: $logo-font;
+                display: none;
+                list-style: none;
+
+
+                @media (min-width: 576px) {
+                    display: block;
+                }
+
+                @media (min-width: 768px) {
+                    display: block;
+                }
+
+                @media (min-width: 992px) {
+                    display: block;
+                }
+            }
+
+            #contact-column {
+                display: block;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+
+
+            @media (min-width: 576px) {
+                width: 28px;
+            }
+
+            @media (min-width: 768px) {
+                width: 30px;
+            }
+
+            @media (min-width: 992px) {
+                width: 32px;
+            }
         }
 
         .social {
@@ -925,11 +964,11 @@ footer {
 
             .icons {
                 a {
-                    color: #fff
+                    color: $logo-font;
                 }
 
                 a:hover {
-                    color: $burgundy-;
+                    color: $red-50;
                 }
             }
 

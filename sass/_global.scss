@@ -512,112 +512,112 @@ header {
     }
 }
 
-#free-trial {
-    @include flex-column;
-    gap: 15px;
+// #free-trial {
+//     @include flex-column;
+//     gap: 15px;
 
-    @media (min-width: 768px) {
-        margin-top: 18px;
-    }
+//     @media (min-width: 768px) {
+//         margin-top: 18px;
+//     }
 
-    @media (min-width: 992px) {
-        margin-top: 28px;
-    }
+//     @media (min-width: 992px) {
+//         margin-top: 28px;
+//     }
 
-    h2 {
-        margin-top: 0;
-        margin-bottom: 0px;
+//     h2 {
+//         margin-top: 0;
+//         margin-bottom: 0px;
 
-        @media (min-width: 768px) {
-            font-size: 32px;
-        }
+//         @media (min-width: 768px) {
+//             font-size: 32px;
+//         }
 
-        @media (min-width: 992px) {
-            font-size: 36px;
-        }
-    }
+//         @media (min-width: 992px) {
+//             font-size: 36px;
+//         }
+//     }
 
-    .free-container {
-        @include flex-column;
-        gap: 25px;
+//     .free-container {
+//         @include flex-column;
+//         gap: 25px;
 
-        .free-section {
-            @include flex-column;
-            gap: 10px;
+//         .free-section {
+//             @include flex-column;
+//             gap: 10px;
 
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
+//             @media (min-width: 576px) {
+//                 @include flex-column;
+//                 gap: 12px;
+//             }
 
-            @media (min-width: 768px) {
-                @include flex-row;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
+//             @media (min-width: 768px) {
+//                 @include flex-row;
+//                 margin: 0 14px 0 14px;
+//                 gap: 14px;
+//             }
 
-            @media (min-width: 992px) {
-                @include flex-row;
-                margin: 0 50px 0 50px;
-                gap: 16px;
-            }
+//             @media (min-width: 992px) {
+//                 @include flex-row;
+//                 margin: 0 50px 0 50px;
+//                 gap: 16px;
+//             }
 
-            p {
-                @include mobile-sections-p;
+//             p {
+//                 @include mobile-sections-p;
 
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     font-size: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
+//                 @media (min-width: 768px) {
+//                     font-size: 24px;
+//                 }
 
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
+//                 @media (min-width: 992px) {
+//                     font-size: 26px;
+//                 }
+//             }
+//         }
 
-        .free-section1 {
-            @include flex-column;
-            gap: 10px;
+//         .free-section1 {
+//             @include flex-column;
+//             gap: 10px;
 
-            @media (min-width: 576px) {
-                @include flex-column;
-                gap: 12px;
-            }
+//             @media (min-width: 576px) {
+//                 @include flex-column;
+//                 gap: 12px;
+//             }
 
-            @media (min-width: 768px) {
-                @include flex-row-reverse;
-                margin: 0 14px 0 14px;
-                gap: 14px;
-            }
+//             @media (min-width: 768px) {
+//                 @include flex-row-reverse;
+//                 margin: 0 14px 0 14px;
+//                 gap: 14px;
+//             }
 
-            @media (min-width: 992px) {
-                @include flex-row-reverse;
-                margin: 0 50px 0 50px;
-                gap: 16px;
-            }
+//             @media (min-width: 992px) {
+//                 @include flex-row-reverse;
+//                 margin: 0 50px 0 50px;
+//                 gap: 16px;
+//             }
 
-            p {
-                @include mobile-sections-p;
+//             p {
+//                 @include mobile-sections-p;
 
-                @media (min-width: 576px) {
-                    font-size: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     font-size: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    font-size: 24px;
-                }
+//                 @media (min-width: 768px) {
+//                     font-size: 24px;
+//                 }
 
-                @media (min-width: 992px) {
-                    font-size: 26px;
-                }
-            }
-        }
-    }
-}
+//                 @media (min-width: 992px) {
+//                     font-size: 26px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 #pricing {
     @include flex-column;
@@ -747,156 +747,156 @@ header {
     }
 }
 
-#contact {
-    @include flex-column;
-    background-color: $banner-logo1;
+// #contact {
+//     @include flex-column;
+//     background-color: $banner-logo1;
 
-    .contact-title {
-        @include flex-column;
-        margin-top: 5px;
-        text-align: center;
+//     .contact-title {
+//         @include flex-column;
+//         margin-top: 5px;
+//         text-align: center;
 
-        @media (min-width: 576px) {
-            margin-top: 10px;
-        }
+//         @media (min-width: 576px) {
+//             margin-top: 10px;
+//         }
 
-        @media (min-width: 768px) {
-            margin-top: 12px;
-        }
+//         @media (min-width: 768px) {
+//             margin-top: 12px;
+//         }
 
-        @media (min-width: 992px) {
-            margin-top: 14px;
-        }
+//         @media (min-width: 992px) {
+//             margin-top: 14px;
+//         }
 
-        h2 {
-            margin: 0 10px 0 10px;
+//         h2 {
+//             margin: 0 10px 0 10px;
     
-            @media (min-width: 992px) {
-                margin-top: 14px;
-                font-size: 55px;
-            }
-        }
+//             @media (min-width: 992px) {
+//                 margin-top: 14px;
+//                 font-size: 55px;
+//             }
+//         }
 
-        h3 {
-            margin: 0 10px 0 10px;
-            font-style: italic;
+//         h3 {
+//             margin: 0 10px 0 10px;
+//             font-style: italic;
 
-            @media (min-width: 992px) {
-                font-size: 35px;
-            }
-        }
-    }
+//             @media (min-width: 992px) {
+//                 font-size: 35px;
+//             }
+//         }
+//     }
 
-    .contact-container {
-        display: flex;
-        flex-direction: row;
-        padding: 8px;
-        padding-bottom: 0;
-        gap: 3em;
+//     .contact-container {
+//         display: flex;
+//         flex-direction: row;
+//         padding: 8px;
+//         padding-bottom: 0;
+//         gap: 3em;
 
-        @media (min-width: 576px) {
-            gap: 8em;
-        }
+//         @media (min-width: 576px) {
+//             gap: 8em;
+//         }
 
-        @media (min-width: 768px) {
-            gap: 15em;
-        }
+//         @media (min-width: 768px) {
+//             gap: 15em;
+//         }
 
-        @media (min-width: 992px) {
-            gap: 20em;
-        }
+//         @media (min-width: 992px) {
+//             gap: 20em;
+//         }
 
-        .contact-text {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+//         .contact-text {
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
 
-            .contact-phone, .contact-address {
-                margin-bottom: 8px;
+//             .contact-phone, .contact-address {
+//                 margin-bottom: 8px;
 
-                @media (min-width: 576px) {
-                    margin-bottom: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     margin-bottom: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    margin-bottom: 10px;
-                }
+//                 @media (min-width: 768px) {
+//                     margin-bottom: 10px;
+//                 }
 
-                @media (min-width: 992px) {
-                    margin-bottom: 15px;
-                }
+//                 @media (min-width: 992px) {
+//                     margin-bottom: 15px;
+//                 }
 
-                h3 {
-                    margin: 0;
-                }
+//                 h3 {
+//                     margin: 0;
+//                 }
 
-                p {
-                    margin: 0;
+//                 p {
+//                     margin: 0;
 
-                    @media (min-width: 576px) {
-                        font-size: 20px;
-                        margin-bottom: 2px;
-                    }
+//                     @media (min-width: 576px) {
+//                         font-size: 20px;
+//                         margin-bottom: 2px;
+//                     }
 
-                    @media (min-width: 768px) {
-                        font-size: 24px;
-                        margin-bottom: 2px;
-                    }
+//                     @media (min-width: 768px) {
+//                         font-size: 24px;
+//                         margin-bottom: 2px;
+//                     }
 
-                    @media (min-width: 992px) {
-                        font-size: 38px;
-                        margin-bottom: 2px;
-                    }
-                }
-            }
+//                     @media (min-width: 992px) {
+//                         font-size: 38px;
+//                         margin-bottom: 2px;
+//                     }
+//                 }
+//             }
 
-            .contact-email {
-                margin-top: 8px;
+//             .contact-email {
+//                 margin-top: 8px;
 
-                @media (min-width: 576px) {
-                    margin-top: 20px;
-                }
+//                 @media (min-width: 576px) {
+//                     margin-top: 20px;
+//                 }
 
-                @media (min-width: 768px) {
-                    margin-top: 10px;
-                }
+//                 @media (min-width: 768px) {
+//                     margin-top: 10px;
+//                 }
 
-                @media (min-width: 992px) {
-                    margin-top: 10px;
-                }
+//                 @media (min-width: 992px) {
+//                     margin-top: 10px;
+//                 }
 
-                h3 {
-                    margin: 0;
-                }
+//                 h3 {
+//                     margin: 0;
+//                 }
 
-                .btn {
-                    margin: 5px;
+//                 .btn {
+//                     margin: 5px;
 
-                    @media (min-width: 576px) {
-                        font-size: 20px;
-                    }
+//                     @media (min-width: 576px) {
+//                         font-size: 20px;
+//                     }
 
-                    @media (min-width: 992px) {
-                        font-size: 24px;
-                    }
-                }
+//                     @media (min-width: 992px) {
+//                         font-size: 24px;
+//                     }
+//                 }
 
-                .btn-primary {
-                    color: white;
-                    background-color: $red-100;
-                    border-color: $red-25;
-                    border-radius: 16px;
-                }
+//                 .btn-primary {
+//                     color: white;
+//                     background-color: $red-100;
+//                     border-color: $red-25;
+//                     border-radius: 16px;
+//                 }
             
-                .btn-primary:hover {
-                    color: #fff;
-                    background-color: $red-50;
-                    border-color: #fff;
-                }
-            }
-        }
-    }
-}
+//                 .btn-primary:hover {
+//                     color: #fff;
+//                     background-color: $red-50;
+//                     border-color: #fff;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 footer {
     background-color: $black-100;
@@ -907,6 +907,14 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 0.5em;
+
+        .footer-map {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5em;
+            margin: 5px;
+        }
 
         .social {
             display: flex;
@@ -921,7 +929,7 @@ footer {
                 }
 
                 a:hover {
-                    color: rgb(183, 183, 183);
+                    color: $burgundy-;
                 }
             }
 

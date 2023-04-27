@@ -911,47 +911,12 @@ footer {
         align-items: center;
         padding: 0.5em;
 
-        .footer-map {
+        .footer-links {
             @include flex-row;
-
-            .footer-column {
+            gap: 25px;
+            a {
                 color: $logo-font;
-                display: none;
-                list-style: none;
-
-
-                @media (min-width: 576px) {
-                    display: block;
-                }
-
-                @media (min-width: 768px) {
-                    display: block;
-                }
-
-                @media (min-width: 992px) {
-                    display: block;
-                }
-            }
-
-            #contact-column {
-                display: block;
-
-                span {
-                    font-size: 20px;
-                }
-            }
-
-
-            @media (min-width: 576px) {
-                width: 28px;
-            }
-
-            @media (min-width: 768px) {
-                width: 30px;
-            }
-
-            @media (min-width: 992px) {
-                width: 32px;
+                text-decoration: none;
             }
         }
 

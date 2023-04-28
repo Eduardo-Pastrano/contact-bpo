@@ -324,6 +324,37 @@ header .navbar-nav .nav-link .btn-primary:hover {
 #more-info .maps {
   width: 90%;
 }
+#more-info .form form {
+  padding: 25px;
+  margin: 0px 25px;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background: #f5f5f5;
+  gap: 20px;
+}
+#more-info .form form input,
+#more-info .form form textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #454545;
+  outline: none;
+}
+#more-info .form form input, #more-info .form form textarea::placeholder {
+  color: #666;
+}
+#more-info .form form h1 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  color: #F14D60;
+}
+#more-info .form form p {
+  margin: 0 0 5px;
+}
+#more-info .form form .buttons {
+  margin-left: 85.2%;
+  display: flex;
+  gap: 25px;
+}
 
 #solutions {
   display: flex;

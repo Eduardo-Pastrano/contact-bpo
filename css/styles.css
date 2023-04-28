@@ -678,11 +678,14 @@ footer .footer .footer-links {
   justify-content: center;
   gap: 8px;
   margin: 10px;
-  gap: 25px;
+  gap: 50px;
 }
 footer .footer .footer-links a {
   color: #b3b3b3;
   text-decoration: none;
+}
+footer .footer .footer-links a:hover {
+  color: #F14D60;
 }
 footer .footer .social {
   display: flex;
@@ -742,6 +745,9 @@ footer .float-button .top-button {
   footer .float-button .top-button {
     width: 38px;
   }
+}
+footer .float-button .top-button:hover {
+  color: #911A1D;
 }
 
 .textover-banner {

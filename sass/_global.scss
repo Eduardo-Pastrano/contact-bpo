@@ -559,20 +559,21 @@ header {
     }
 }
 
-
 footer {
     background-color: $black-100;
     margin-top: auto;
 
     .footer {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 0.5em;
+        padding: 1em;
 
         .footer-links {
             @include flex-row;
-            gap: 50px;
+            margin-right: 55px;
+            gap: 8px;
+            font-size: 12px;
 
             a {
                 color: $logo-font;
@@ -582,47 +583,47 @@ footer {
             a:hover {
                 color: $red-50;
             }
-        }
 
-        .social {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 0.5em;
-            margin: 5px;
-
-            .icons {
-                a {
-                    color: $logo-font;
-                }
-
-                a:hover {
-                    color: $red-50;
-                }
+            @media (min-width: 576px) {
+                margin-right: 55px;
+                gap: 10px;
+                font-size: 12px;
             }
 
-            .social-icon {
-                width: 24px;
+            @media (min-width: 768px) {
+                margin-right: 60px;
+                gap: 16px;
+                font-size: 14px;
+            }
 
-                @media (min-width: 576px) {
-                    width: 28px;
-                }
-
-                @media (min-width: 768px) {
-                    width: 30px;
-                }
-
-                @media (min-width: 992px) {
-                    width: 32px;
-                }
+            @media (min-width: 992px) {
+                margin-right: 65px;
+                gap: 25px;
+                font-size: 16px;
             }
         }
 
         .footer-text {
+            margin-right: auto;
+
             p {
                 color: rgb(255, 255, 255);
                 margin-bottom: 0;
+                font-size: 12px;
+
+                @media (min-width: 576px) {
+                    font-size: 12px;
+                }
+    
+                @media (min-width: 768px) {
+                    font-size: 14px;
+                }
+    
+                @media (min-width: 992px) {
+                    font-size: 16px;
+                }
             }
+
         }
     }
 

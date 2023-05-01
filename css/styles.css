@@ -796,6 +796,16 @@ footer .float-button .top-button:hover {
   color: #911A1D;
 }
 
+.legal-container {
+  width: 95%;
+}
+.legal-container p {
+  text-align: justify;
+}
+.legal-container h3 {
+  margin-bottom: 0px;
+}
+
 .textover-banner {
   position: relative;
 }

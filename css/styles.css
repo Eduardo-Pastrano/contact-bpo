@@ -104,6 +104,7 @@ header .navbar-nav .nav-link .btn-primary:hover {
   text-align: center;
 }
 #info h2 {
+  font-style: italic;
   margin: 10px;
   margin-bottom: 0px;
 }
@@ -118,6 +119,7 @@ header .navbar-nav .nav-link .btn-primary:hover {
   }
 }
 #info p {
+  font-style: italic;
   margin: 8px;
 }
 @media (min-width: 576px) {
@@ -418,6 +420,7 @@ header .navbar-nav .nav-link .btn-primary:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: space-evenly;
   gap: 10px;
 }
 @media (min-width: 576px) {
@@ -803,6 +806,32 @@ footer .float-button .top-button:hover {
 }
 .legal-container h3 {
   margin-bottom: 0px;
+}
+.legal-container .legal-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+.legal-container .legal-section p {
+  margin-left: 25px;
+}
+.legal-container .legal-section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+.legal-container .legal-section1 p {
+  margin-left: 25px;
+}
+
+.about-text h3, .about-text h4 {
+  text-align: justify;
+  padding: 5px;
+  margin: 0 15px 0 15px;
 }
 
 .textover-banner {

@@ -811,21 +811,22 @@ footer .float-button .top-button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
   padding: 15px;
 }
+.legal-container .legal-section h3 {
+  text-align: center;
+}
+.legal-container .legal-section h3 a {
+  color: #161616;
+}
 .legal-container .legal-section p {
-  margin-left: 25px;
+  text-align: center;
 }
 .legal-container .legal-section1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
   padding: 15px;
-}
-.legal-container .legal-section1 p {
-  margin-left: 25px;
 }
 
 .about-text h3, .about-text h4 {

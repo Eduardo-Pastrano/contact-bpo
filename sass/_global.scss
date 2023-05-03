@@ -672,11 +672,19 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
         padding: 15px;
 
+        h3 {
+            text-align: center;
+
+            a {
+                color: $black-100;
+            }
+        }
+        
+
         p {
-            margin-left: 25px;
+            text-align: center;
         }
     }
 
@@ -684,12 +692,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
         padding: 15px;
-
-        p {
-            margin-left: 25px;
-        }
     }
 }
 
@@ -698,3 +701,8 @@ footer {
         @include mobile-sections-p;
     }
 }
+
+// .dropdown:hover .dropdown-menu {
+//     display: block;
+//     margin-top: 0;
+// }

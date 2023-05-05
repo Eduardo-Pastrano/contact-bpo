@@ -21,6 +21,28 @@ body {
 header {
   background-color: #161616;
 }
+header #header-bar {
+  width: 100vw;
+  background-color: #454545;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #header-bar p {
+  color: white;
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 18px;
+}
+header #header-bar p a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+header #header-bar p a:hover {
+  color: rgb(213, 213, 213);
+}
 header .navbar-dark .navbar-toggler {
   color: #161616;
   border-color: #161616;

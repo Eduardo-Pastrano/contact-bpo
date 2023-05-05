@@ -18,6 +18,32 @@ body {
 header {
     background-color: $black-100;
 
+    #header-bar {
+        width: 100vw;
+        background-color: $black-50;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: white;
+            margin-bottom: 0;
+            font-style: italic;
+            font-size: 18px;
+
+            a {
+                font-weight: 600;
+                color: white;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: rgb(213, 213, 213);
+            }
+        }
+    }
+
     .navbar-dark .navbar-toggler {
         color: $black-100;
         border-color: $black-100;

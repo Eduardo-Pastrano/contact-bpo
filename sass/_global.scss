@@ -148,6 +148,7 @@ header {
     }
 
     a {
+        @include mobile-sections-p;
         margin-bottom: 5px;
 
         button {

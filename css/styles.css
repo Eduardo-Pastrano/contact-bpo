@@ -157,6 +157,9 @@ header .navbar-nav .nav-link .btn-primary:hover {
   }
 }
 #what-we-do a {
+  text-align: justify;
+  padding: 5px;
+  margin: 0 15px 0 15px;
   margin-bottom: 5px;
 }
 @media (min-width: 576px) {
@@ -850,6 +853,7 @@ footer .float-button .top-button:hover {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 8px;
+  line-height: normal;
 }
 .textover-banner figcaption h1 {
   font-size: 12px;
@@ -860,19 +864,19 @@ footer .float-button .top-button:hover {
 .textover-banner figcaption #textover-paragraph {
   color: #BFBFBF;
   font-weight: 800;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .textover-banner figcaption .textover-paragraph {
   font-size: 8px;
   font-weight: 500;
-  width: 300px;
+  width: 90%;
 }
 .textover-banner figcaption a {
   margin-left: 8px;
 }
 .textover-banner figcaption a .btn-primary {
-  margin-top: 3px;
+  margin-top: 5px;
   background-color: #911A1D;
   border-color: #911A1D;
   font-size: 6px;
@@ -884,7 +888,7 @@ footer .float-button .top-button:hover {
 }
 @media (min-width: 350px) {
   .textover-banner figcaption {
-    top: 3%;
+    top: 6%;
   }
   .textover-banner figcaption p {
     margin-top: 0;
@@ -900,19 +904,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 9.5px;
     font-weight: 500;
-    width: 340px;
   }
   .textover-banner figcaption a {
     margin-left: 12px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 3px;
+    margin-top: 5px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 8px;
@@ -941,19 +944,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 10.5px;
     font-weight: 500;
-    width: 400px;
   }
   .textover-banner figcaption a {
     margin-left: 12px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 3px;
+    margin-top: 5px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 8px;
@@ -982,19 +984,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 11px;
     font-weight: 500;
-    width: 425px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 6px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 10px;
@@ -1023,19 +1024,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 12px;
     font-weight: 500;
-    width: 450px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 6px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 10px;
@@ -1064,19 +1064,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 14px;
     font-weight: 500;
-    width: 480px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 6px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 12px;
@@ -1107,19 +1106,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 14px;
     font-weight: 500;
-    width: 520px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 6px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 12px;
@@ -1148,19 +1146,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 14px;
     font-weight: 500;
-    width: 530px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 8px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 12px;
@@ -1189,19 +1186,18 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 16px;
     font-weight: 500;
-    width: 580px;
   }
   .textover-banner figcaption a {
     margin-left: 15px;
   }
   .textover-banner figcaption a .btn-primary {
-    margin-top: 5px;
+    margin-top: 9px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 14px;
@@ -1230,20 +1226,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 18px;
     font-weight: 500;
-    width: 650px;
   }
   .textover-banner figcaption a {
     margin-left: 22px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 12px;
-    margin-top: 5px;
+    margin-top: 12px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 16px;
@@ -1272,20 +1267,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 14px;
+    margin-bottom: 14px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 20px;
     font-weight: 500;
-    width: 750px;
   }
   .textover-banner figcaption a {
     margin-left: 18px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 12px;
-    margin-top: 5px;
+    margin-top: 16px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 18px;
@@ -1314,20 +1308,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 28px;
     font-weight: 500;
-    width: 950px;
   }
   .textover-banner figcaption a {
     margin-left: 30px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 12px;
-    margin-top: 5px;
+    margin-top: 12px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 22px;
@@ -1340,7 +1333,7 @@ footer .float-button .top-button:hover {
 }
 @media (min-width: 1200px) {
   .textover-banner figcaption {
-    top: 3%;
+    top: 10%;
   }
   .textover-banner figcaption p {
     margin-top: 0;
@@ -1356,20 +1349,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 14px;
+    margin-bottom: 14px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 32px;
     font-weight: 500;
-    width: 1050px;
   }
   .textover-banner figcaption a {
     margin-left: 35px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 12px;
-    margin-top: 5px;
+    margin-top: 16px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 24px;
@@ -1382,7 +1374,7 @@ footer .float-button .top-button:hover {
 }
 @media (min-width: 1400px) {
   .textover-banner figcaption {
-    top: 8%;
+    top: 12%;
   }
   .textover-banner figcaption p {
     margin-top: 0;
@@ -1398,20 +1390,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 36px;
     font-weight: 500;
-    width: 1200px;
   }
   .textover-banner figcaption a {
     margin-left: 45px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 16px;
-    margin-top: 5px;
+    margin-top: 18px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 32px;
@@ -1440,20 +1431,19 @@ footer .float-button .top-button:hover {
   .textover-banner figcaption #textover-paragraph {
     color: #BFBFBF;
     font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .textover-banner figcaption .textover-paragraph {
     font-size: 42px;
     font-weight: 500;
-    width: 1400px;
   }
   .textover-banner figcaption a {
     margin-left: 45px;
   }
   .textover-banner figcaption a .btn-primary {
     padding: 6px 16px;
-    margin-top: 10px;
+    margin-top: 40px;
     background-color: #911A1D;
     border-color: #911A1D;
     font-size: 30px;

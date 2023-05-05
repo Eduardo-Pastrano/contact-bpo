@@ -1,7 +1,6 @@
 .textover-banner {
     position: relative;
 
-
     figcaption {
         position: absolute;
         top: 6%;
@@ -14,6 +13,7 @@
             margin-top: 0;
             margin-bottom: 0;
             margin-left: 8px;
+            line-height: normal;
         }
 
         h1 {
@@ -26,21 +26,21 @@
         #textover-paragraph {
             color: $banner-logo1;
             font-weight: 800;
-            margin-top: 2px;
-            margin-bottom: 2px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         .textover-paragraph {
             font-size: 8px;
             font-weight: 500;
-            width: 300px; 
+            width: 90%; 
         }
 
         a {
             margin-left: 8px;
 
             .btn-primary {
-                margin-top: 3px;
+                margin-top: 5px;
                 background-color: $burgundy-100;
                 border-color: $burgundy-100;
                 font-size: 6px;
@@ -54,7 +54,7 @@
         }
 
         @media (min-width: 350px) {
-            top: 3%;
+            top: 6%;
 
             p {
                 margin-top: 0;
@@ -72,21 +72,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 9.5px;
                 font-weight: 500;
-                width: 340px;
             }
 
             a {
                 margin-left: 12px;
     
                 .btn-primary {
-                    margin-top: 3px;
+                    margin-top: 5px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 8px;
@@ -119,21 +118,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 10.5px;
                 font-weight: 500;
-                width: 400px;
             }
 
             a {
                 margin-left: 12px;
     
                 .btn-primary {
-                    margin-top: 3px;
+                    margin-top: 5px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 8px;
@@ -166,21 +164,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 11px;
                 font-weight: 500;
-                width: 425px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 6px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 10px;
@@ -213,21 +210,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 12px;
                 font-weight: 500;
-                width: 450px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 6px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 10px;
@@ -260,21 +256,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 14px;
                 font-weight: 500;
-                width: 480px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 6px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 12px;
@@ -309,21 +304,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 5px;
+                margin-bottom: 5px;
             }
 
             .textover-paragraph {
                 font-size: 14px;
                 font-weight: 500;
-                width: 520px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 6px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 12px;
@@ -356,21 +350,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 7px;
+                margin-bottom: 7px;
             }
 
             .textover-paragraph {
                 font-size: 14px;
                 font-weight: 500;
-                width: 530px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 8px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 12px;
@@ -403,21 +396,20 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 8px;
+                margin-bottom: 8px;
             }
 
             .textover-paragraph {
                 font-size: 16px;
                 font-weight: 500;
-                width: 580px;
             }
 
             a {
                 margin-left: 15px;
     
                 .btn-primary {
-                    margin-top: 5px;
+                    margin-top: 9px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 14px;
@@ -450,14 +442,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 10px;
+                margin-bottom: 10px;
             }
 
             .textover-paragraph {
                 font-size: 18px;
                 font-weight: 500;
-                width: 650px;
             }
 
             a {
@@ -465,7 +456,7 @@
     
                 .btn-primary {
                     padding: 6px 12px;
-                    margin-top: 5px;
+                    margin-top: 12px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 16px;
@@ -498,14 +489,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 14px;
+                margin-bottom: 14px;
             }
 
             .textover-paragraph {
                 font-size: 20px;
                 font-weight: 500;
-                width: 750px;
             }
 
             a {
@@ -513,7 +503,7 @@
     
                 .btn-primary {
                     padding: 6px 12px;
-                    margin-top: 5px;
+                    margin-top: 16px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 18px;
@@ -546,14 +536,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 10px;
+                margin-bottom: 10px;
             }
 
             .textover-paragraph {
                 font-size: 28px;
                 font-weight: 500;
-                width: 950px;
             }
 
             a {
@@ -561,7 +550,7 @@
     
                 .btn-primary {
                     padding: 6px 12px;
-                    margin-top: 5px;
+                    margin-top: 12px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 22px;
@@ -576,7 +565,7 @@
         }
 
         @media (min-width: 1200px) {
-            top: 3%;
+            top: 10%;
 
             p {
                 margin-top: 0;
@@ -594,14 +583,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 14px;
+                margin-bottom: 14px;
             }
 
             .textover-paragraph {
                 font-size: 32px;
                 font-weight: 500;
-                width: 1050px;
             }
 
             a {
@@ -609,7 +597,7 @@
     
                 .btn-primary {
                     padding: 6px 12px;
-                    margin-top: 5px;
+                    margin-top: 16px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 24px;
@@ -624,7 +612,7 @@
         }
 
         @media (min-width: 1400px) {
-            top: 8%;
+            top: 12%;
 
             p {
                 margin-top: 0;
@@ -642,14 +630,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 2px;
-                margin-bottom: 2px;
+                margin-top: 18px;
+                margin-bottom: 18px;
             }
 
             .textover-paragraph {
                 font-size: 36px;
                 font-weight: 500;
-                width: 1200px;
             }
 
             a {
@@ -657,7 +644,7 @@
     
                 .btn-primary {
                     padding: 6px 16px;
-                    margin-top: 5px;
+                    margin-top: 18px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 32px;
@@ -690,14 +677,13 @@
             #textover-paragraph {
                 color: $banner-logo1;
                 font-weight: 800;
-                margin-top: 10px;
-                margin-bottom: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
 
             .textover-paragraph {
                 font-size: 42px;
                 font-weight: 500;
-                width: 1400px;
             }
 
             a {
@@ -705,7 +691,7 @@
     
                 .btn-primary {
                     padding: 6px 16px;
-                    margin-top: 10px;
+                    margin-top: 40px;
                     background-color: $burgundy-100;
                     border-color: $burgundy-100;
                     font-size: 30px;

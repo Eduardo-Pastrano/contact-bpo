@@ -43,6 +43,11 @@ header #header-bar p a {
 header #header-bar p a:hover {
   color: rgb(213, 213, 213);
 }
+header .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 header .navbar-dark .navbar-toggler {
   color: #161616;
   border-color: #161616;

@@ -44,6 +44,12 @@ header {
         }
     }
 
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%
+    }
+
     .navbar-dark .navbar-toggler {
         color: $black-100;
         border-color: $black-100;

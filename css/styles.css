@@ -1496,6 +1496,25 @@ footer .float-button .top-button:hover {
   }
 }
 
+.about-img {
+  max-width: 50vw;
+}
+@media (min-width: 576px) {
+  .about-img {
+    width: 30vw;
+  }
+}
+@media (min-width: 768px) {
+  .about-img {
+    width: 30vw;
+  }
+}
+@media (min-width: 992px) {
+  .about-img {
+    width: 40vw;
+  }
+}
+
 .logo {
   width: 25vw;
 }
